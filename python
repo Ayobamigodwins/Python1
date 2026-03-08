@@ -1,0 +1,10 @@
+name = input ("Enter the name")
+if name == "Szymon":
+    print("Correct")
+elif name =="John":
+    print("correct")
+elif name == "Piotr":
+    print("correct")
+    
+else:
+    print("Try again")
