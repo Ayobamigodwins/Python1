@@ -1,5 +1,5 @@
 #ATM Withdrawal Simulator
-balance = 1000  # starting balance
+balance = 10000  # starting balance
 
 withdraw = int(input("How much would you like to withdraw? "))
 
