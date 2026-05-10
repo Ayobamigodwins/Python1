@@ -6,7 +6,7 @@ class Car:
         self.year = year
 
     def show_details(self):
-        print(f"{self.brand} {self.model} {self.year}")
+        print(f"{self.brand} {self.model} Year: {self.year}")
 
 
 car1 = Car(brand="Toyota", model="Corolla", year=2016)
