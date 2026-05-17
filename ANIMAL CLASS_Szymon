@@ -1,0 +1,16 @@
+class animal:
+    def type(self):
+        print("I am an animal")
+class dog(animal):
+    def bark(self):
+        print("I am  barking")
+class cat(animal):
+    def meow(self):
+        print("I am meowing")
+        
+d1 = dog()
+c1 = cat()
+d1.type()
+d1.bark()
+c1.type()
+c1.meow()       
